@@ -10,8 +10,8 @@ Improve the style of the website in index.html. We would like to maintain a soft
 \definecolor{backgroundcolor}{RGB}{0,0,0}  % Black
 ```latex
 
-# SPEC: For every draft copy the results to `drafts/{current-model-being-used-in-aider}/{draft_number}/index.html`
+# SPEC: For every draft copy the results to `drafts/{draft_number}/index.html`
 
-# SPEC: For every draft, add an entry to `drafts/{current-model-being-used-in-aider}/README.md` describing the style changes of the current revision.
+# SPEC: For every draft, add an entry to `drafts/README.md` describing the style changes of the current revision.
 
 # SPEC: Do not commit changes to the original `index.html`. Only commit the files in `drafts`
