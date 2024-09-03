@@ -1,6 +1,8 @@
 Improve the style of the website in index.html. We would like to maintain a software engineer / crypto / hacker vibe.
 
-# TASK: maintain (at least some) consistency with our business cards that use these colors:
+# TASK: Provide a set of 7 different examples from which we can choose the best style.
+
+# SPECIFICATION (SPEC): maintain (at least some) consistency with our business cards that use these colors:
 ```latex
 \definecolor{primarycolor}{RGB}{0,255,0}  % Green
 \definecolor{secondarycolor}{RGB}{0,200,0}  % Darker Green
@@ -8,10 +10,8 @@ Improve the style of the website in index.html. We would like to maintain a soft
 \definecolor{backgroundcolor}{RGB}{0,0,0}  % Black
 ```latex
 
-# TASK: Provide a set of 7 different examples from which we can choose the best style.
+# SPEC: For every draft copy the results to `drafts/{current-model-being-used-in-aider}/{draft_number}/index.html`
 
-# TASK: For every draft copy the results to `drafts/{draft_number}/index.html`
+# SPEC: For every draft, add an entry to `drafts/{current-model-being-used-in-aider}/README.md` describing the style changes of the current revision.
 
-# TASK: For every draft, add an entry to `drafts/README.md` describing the style changes of the current revision.
-
-# TASK: Do not commit changes to the original `index.html`. Only commit the files in `drafts`
+# SPEC: Do not commit changes to the original `index.html`. Only commit the files in `drafts`
